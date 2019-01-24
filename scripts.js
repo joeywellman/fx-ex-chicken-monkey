@@ -6,13 +6,13 @@ for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
 // and for the multiples of seven (7, 14, 21, etc.) print "Monkey".
 // For numbers which are multiples of both five and seven print "ChickenMonkey".
     if (currentNumber % 5 === 0 && currentNumber % 7 === 0) {
-        console.log("ChickenMonkey")
+        console.log(currentNumber, "ChickenMonkey")
 
     } else if (currentNumber % 5 === 0) {
-        console.log("Chicken")
+        console.log(currentNumber, "Chicken")
     
     } else if (currentNumber % 7 === 0) {
-    console.log("Monkey")
+    console.log(currentNumber, "Monkey")
     }
 }
 // To determine if a number can be evenly divided by 5 or 7, use the JavaScript remainder operator.
